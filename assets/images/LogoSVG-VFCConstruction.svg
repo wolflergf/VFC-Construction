@@ -1,0 +1,27 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="reflectionFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="fadeMask">
+      <rect x="0" y="600" width="1000" height="400" fill="url(#reflectionFade)"/>
+    </mask>
+  </defs>
+
+  <!-- Reflection (mirrored, faded) -->
+  <g mask="url(#fadeMask)" fill="#B3B3B3">
+    <polygon points="54.7,642.89 212.8,757.98 482.5,642.89"/>
+    <polygon points="493.23,941.76 223.53,765.29 493.23,650.2"/>
+    <polygon points="506.77,941.76 776.47,765.29 506.77,650.2"/>
+    <polygon points="945.3,642.89 787.2,757.98 517.5,642.89"/>
+  </g>
+
+  <!-- Main logo -->
+  <g>
+    <polygon points="54.7,634.75 212.8,425.5 482.5,634.75" fill="#1E1E1E"/>
+    <polygon points="493.23,91.35 223.53,412.2 493.23,621.45" fill="#7A1B58"/>
+    <polygon points="506.77,91.35 776.47,412.2 506.77,621.45" fill="#7A1B58"/>
+    <polygon points="945.3,634.75 787.2,425.5 517.5,634.75" fill="#1E1E1E"/>
+  </g>
+</svg>
